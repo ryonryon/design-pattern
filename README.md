@@ -2,9 +2,32 @@
 
 this is my practice of design pattern.
 
-|          Pattern name 　           |
-| :--------------------------------: |
-| [Factory Method ](#factory_method) |
+|                   Pattern name 　                   |
+| :-------------------------------------------------: |
+|        [Abstract Factory](#abstract_factory)        |
+|                 [Builder](#builder)                 |
+|          [Factory Method](#factory_method)          |
+|               [Prototype](#prototype)               |
+|               [Singleton](#singleton)               |
+|           -------------------------------           |
+|                 [Adaptor](#adaptor)                 |
+|                  [Bridge](#bridge)                  |
+|               [Composite](#composite)               |
+|               [Decorator](#decorator)               |
+|                  [Facade](#facade)                  |
+|               [Flyweight](#flyweight)               |
+|                   [Proxy](#proxy)                   |
+|           -------------------------------           |
+| [Chain of Responsibility](#chain_of_responsibility) |
+|             [Interpreter](#interpreter)             |
+|                [Iterator](#iterator)                |
+|                [Mediator](#mediator)                |
+|                 [Memento](#memento)                 |
+|                [Observer](#observer)                |
+|                   [State](#state)                   |
+|                [Strategy](#strategy)                |
+|         [Template Method](#template_method)         |
+|                 [Visitor](#visitor)                 |
 
 <a name="factory_method"></a>
 
