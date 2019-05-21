@@ -2,9 +2,12 @@
 
 this is my practice of design pattern.
 
-|      ||  Pattern name  |
-| :--: || :------------: |
-| [x]  || Factory Method |
+|     | Pattern name 　 |
+| :-- | :-------------: |
+| [x] | Factory Method  |
+
+- [ ]
+- [x]
 
 ## Factory Method
 
