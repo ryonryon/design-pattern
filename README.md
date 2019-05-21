@@ -29,9 +29,21 @@ this is my practice of design pattern.
 |         [Template Method](#template_method)         |
 |                 [Visitor](#visitor)                 |
 
+## オブジェクトの生成に関するパターン
+
+### Factory Method
+
 <a name="factory_method"></a>
 
-## Factory Method
+Factory Method パターンは、他のクラスのコンストラクタをサブクラスで上書き可能な自分のメソッドに置き換えることで、 アプリケーションに特化したオブジェクトの生成をサブクラスに追い出し、クラスの再利用性を高めることを目的とする。
+
+## プログラムの構造に関するパターン
+
+### Decorator
+
+<a name="decorator"></a>
+
+機能を次々に追加する
 
 ## refered website
 
