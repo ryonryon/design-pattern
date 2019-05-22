@@ -3,18 +3,18 @@ import 'dart:math';
 import './number_generator.dart';
 
 class RandomNumberGenerator extends NumberGenerator {
-  Random random = Random();
-  int number;
+  Random _random = Random();
+  int _number;
 
   @override
   int getNumber() {
-    return number;
+    return _number;
   }
 
   @override
   void execute() {
     for (int i = 0; i < 20; i++) {
-      number = random.nextInt(50);
+      _number = _random.nextInt(50);
       notifyObservers();
     }
   }

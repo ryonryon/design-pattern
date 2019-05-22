@@ -8,9 +8,11 @@ class GraphObserver implements Observer {
     print("Graph Observer: ");
 
     int count = generator.getNumber();
+    String asterisks = "";
     for (int i = 0; i < count; i++) {
-      Utility.writeGraph();
+      asterisks += "*";
     }
+    print(asterisks);
 
     print("");
     Utility.sleep(seconds: 100);

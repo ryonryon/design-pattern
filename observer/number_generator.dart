@@ -1,18 +1,18 @@
 import './observer.dart';
 
 abstract class NumberGenerator {
-  List<Observer> observers = [];
+  List<Observer> _observers = [];
 
   void addObserver(Observer observer) {
-    observers.add(observer);
+    _observers.add(observer);
   }
 
   void deleteObserver(Observer observer) {
-    observers.remove(observer);
+    _observers.remove(observer);
   }
 
   void notifyObservers() {
-    observers.map((observer) => observer.update(this));
+    _observers.map((observer) => observer.update(this));
   }
 
   int getNumber();
