@@ -29,7 +29,7 @@ this is my practice of design pattern.
 |         [Template Method](#template_method)         |
 |                 [Visitor](#visitor)                 |
 
-## オブジェクトの生成に関するパターン
+## 生成に関するパターン
 
 ### Factory Method
 
@@ -37,13 +37,27 @@ this is my practice of design pattern.
 
 Factory Method パターンは、他のクラスのコンストラクタをサブクラスで上書き可能な自分のメソッドに置き換えることで、 アプリケーションに特化したオブジェクトの生成をサブクラスに追い出し、クラスの再利用性を高めることを目的とする。
 
-## プログラムの構造に関するパターン
+## 構造に関するパターン
 
 ### Decorator
 
 <a name="decorator"></a>
 
-機能を次々に追加する
+Decorator パターンは、既存のクラスを拡張する際にクラスの継承の代替手段として用いられる。継承がコンパイル時に機能を拡張するのに対し、Decorator パターンはプログラムの実行時に機能追加をする点が異なる。
+
+### Adapter
+
+<a name="adapter"></a>
+
+Adapter パターンを用いると、既存のクラスに対して修正を加えることなく、インタフェースを変更することができる。Adapter パターンを実現するための手法として継承を利用した手法と委譲を利用した手法が存在する。
+
+## 振る舞いに関するパターン
+
+### Observer
+
+<a name="observer"></a>
+
+プログラム内のオブジェクトのイベント( 事象 )を他のオブジェクトへ通知する処理で使われるデザインパターン
 
 ## refered website
 
