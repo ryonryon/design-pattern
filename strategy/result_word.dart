@@ -1,0 +1,1 @@
+enum ResultWord { OK, NG }

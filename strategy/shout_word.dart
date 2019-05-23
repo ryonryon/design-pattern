@@ -1,0 +1,1 @@
+enum ShoutWord { UP, DOWN }
