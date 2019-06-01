@@ -5,7 +5,7 @@ abstract class Observer {
     _id = 0;
     _subject = subject;
 
-    subject.addObserver(this);
+    _subject.addObserver(this);
   }
 
   int _id;
