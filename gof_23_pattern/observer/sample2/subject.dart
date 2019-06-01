@@ -1,7 +1,7 @@
 import './observer.dart';
 
 abstract class Subject {
-  List<Observer> observers = List();
+  List<Observer> observers = [];
 
   addObserver(Observer observer) {
     observers.add(observer);
